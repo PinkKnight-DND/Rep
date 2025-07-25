@@ -1,0 +1,265 @@
+<!DOCTYPE html> <html><head>
+		<title>Фиксеры</title>
+		<base href="..\../">
+		<meta id="root-path" root-path="..\../">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="DAD - Фиксеры">
+		<meta property="og:title" content="Фиксеры">
+		<meta property="og:description" content="DAD - Фиксеры">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="классы/фиксеры/фиксеры.html">
+		<meta property="og:image" content="undefined">
+		<meta property="og:site_name" content="DAD">
+		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.0/pixi.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript></head><body class="publish css-settings-manager theme-light show-inline-title show-ribbon"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="Фиксеры">Фиксеры</h1><div class="el-p"><p dir="auto"><strong>Кость Хитов:</strong>&nbsp;1к10 за каждый уровень Фиксера.<br>
+<strong>Хиты на 1 уровне:</strong>&nbsp;10 + модификатор Телосложения.<br>
+<strong>Хиты на последующих уровнях:</strong>&nbsp;1к10 (или 6) + модификатор Телосложения за каждый уровень Фиксера после 1-го.</p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Уровень</th>
+<th dir="ltr">Бонус</th>
+<th dir="ltr">Оружия мастерских</th>
+<th dir="ltr">Свет</th>
+<th align="left" dir="ltr">Особенности</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">1st</td>
+<td dir="auto">+2</td>
+<td dir="auto">1</td>
+<td dir="auto">0</td>
+<td align="left" dir="ltr">Униформа, Мастерские, Офис, Броски</td>
+</tr>
+<tr>
+<td dir="ltr">2nd</td>
+<td dir="auto">+2</td>
+<td dir="auto">1</td>
+<td dir="auto">2</td>
+<td align="left" dir="ltr">Боевые стили, Ненормальная способность, Свет</td>
+</tr>
+<tr>
+<td dir="ltr">3rd</td>
+<td dir="auto">+2</td>
+<td dir="auto">1</td>
+<td dir="auto">3</td>
+<td align="left" dir="ltr">Клэши, Офис</td>
+</tr>
+<tr>
+<td dir="ltr">4th</td>
+<td dir="auto">+2</td>
+<td dir="auto">2</td>
+<td dir="auto">4</td>
+<td align="left" dir="ltr">Увеличение характеристик, Свет абилка</td>
+</tr>
+<tr>
+<td dir="ltr">5th</td>
+<td dir="auto">+3</td>
+<td dir="auto">2</td>
+<td dir="auto">5</td>
+<td align="left" dir="ltr">Экстра атака</td>
+</tr>
+<tr>
+<td dir="ltr">6th</td>
+<td dir="auto">+3</td>
+<td dir="auto">2</td>
+<td dir="auto">6</td>
+<td align="left" dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">7th</td>
+<td dir="auto">+3</td>
+<td dir="auto">2</td>
+<td dir="auto">7</td>
+<td align="left" dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">8th</td>
+<td dir="auto">+3</td>
+<td dir="auto">3</td>
+<td dir="auto">8</td>
+<td align="left" dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">9th</td>
+<td dir="auto">+4</td>
+<td dir="auto">3</td>
+<td dir="auto">9</td>
+<td align="left" dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">10th</td>
+<td dir="auto">+4</td>
+<td dir="auto">3</td>
+<td dir="auto">10</td>
+<td align="left" dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">11th</td>
+<td dir="auto">+4</td>
+<td dir="auto">3</td>
+<td dir="auto">11</td>
+<td align="left" dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">12th</td>
+<td dir="auto">+4</td>
+<td dir="auto">4</td>
+<td dir="auto">12</td>
+<td align="left" dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">13th</td>
+<td dir="auto">+5</td>
+<td dir="auto">4</td>
+<td dir="auto">13</td>
+<td align="left" dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">14th</td>
+<td dir="auto">+5</td>
+<td dir="auto">4</td>
+<td dir="auto">14</td>
+<td align="left" dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">15th</td>
+<td dir="auto">+5</td>
+<td dir="auto">4</td>
+<td dir="auto">15</td>
+<td align="left" dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">16th</td>
+<td dir="auto">+5</td>
+<td dir="auto">5</td>
+<td dir="auto">16</td>
+<td align="left" dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">17th</td>
+<td dir="auto">+6</td>
+<td dir="auto">5</td>
+<td dir="auto">17</td>
+<td align="left" dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">18th</td>
+<td dir="auto">+6</td>
+<td dir="auto">5</td>
+<td dir="auto">18</td>
+<td align="left" dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">19th</td>
+<td dir="auto">+6</td>
+<td dir="auto">5</td>
+<td dir="auto">19</td>
+<td align="left" dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">20th</td>
+<td dir="auto">+6</td>
+<td dir="auto">6</td>
+<td dir="auto">20</td>
+<td align="left" dir="auto"></td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto"><strong>Владение:</strong></p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Броня:</strong>&nbsp;Легкая броня, Средняя броня, Щиты.<br>
+</li>
+<li data-line="2" dir="auto"><strong>Оружие:</strong>&nbsp;Простое оружие, Воинское оружие, Огнестрельное оружие.<br>
+</li>
+<li data-line="4" dir="auto"><strong>Инструменты:</strong>&nbsp;Один инструмент на ваш выбор. С разрешения Мастера, вы можете выбрать два инструмента, обосновав свой выбор.<br>
+</li>
+<li data-line="6" dir="auto"><strong>Спасброски:</strong>&nbsp;Сила или Ловкость, Телосложение.<br>
+</li>
+<li data-line="8" dir="auto"><strong>Навыки:</strong>&nbsp;Выберите 3 из следующих: Атлетика, Акробатика, Выживание, Скрытность, Анализ (Расследование), Запугивание, Проницательность (Проницательность), Медицина.<br>
+</li>
+</ul></div><div class="el-p"><p dir="auto"><strong>Снаряжение:</strong><br>
+Вы начинаете со следующим снаряжением, в дополнение к снаряжению, полученному от предыстории:</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto">Легкая броня и Щит<br>
+</li>
+<li data-line="2" dir="auto">Одно воинское оружие или два простых оружия.<br>
+</li>
+<li data-line="4" dir="auto">Пистолет с 10 патронами или Длинный лук с 20 стрелами. (Зависит от подкласса)<br>
+</li>
+<li data-line="6" dir="auto">Один инструмент, которым вы владеете.<br>
+</li>
+<li data-line="8" dir="auto">4к4 х 10 зм.<br>
+</li>
+<li data-line="10" dir="auto">Форменная одежда.<br>
+</li>
+</ul></div><div class="el-p"><p dir="auto"><strong>Уникальные Особенности Класса:</strong></p></div><div class="el-p"><p dir="auto"><strong>Доступ к Мастерским:</strong>&nbsp;Вы имеете право посещать базовые мастерские. Доступ к специализированным мастерским и возможность заказывать уникальные предметы зависят от вашего ранга. Вы можете одновременно носить не более 1 оружия, 1 брони и 1 артефакта, созданных в мастерской.</p></div><div class="el-p"><p dir="auto"><strong>Принадлежность к Офису:</strong>&nbsp;В зависимости от выбранного вами Офиса, вы получаете различные бонусы на 1-м, 3-м, 6-м, 10-м, 13-м и 17-м уровнях.</p></div><div class="el-p"><p dir="auto"><strong>Бонусы Фиксера:</strong></p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Модификатор Способности Фиксера:</strong>&nbsp;Модификатор Силы или Ловкости (на ваш выбор).<br>
+</li>
+<li data-line="2" dir="auto"><strong>Сложность Спасброска Фиксера (СС):</strong>&nbsp;8 + Бонус Мастерства + Модификатор Способности Фиксера.<br>
+</li>
+<li data-line="4" dir="auto"><strong>Модификатор Атаки:</strong>&nbsp;Бонус Мастерства + Модификатор Способности Фиксера.<br>
+</li>
+</ul></div><div class="el-p"><p dir="auto"><strong>Боевые Стили (2-й уровень):</strong><br>
+На 2-м уровне вы выбираете один из следующих боевых стилей. На 10-м уровне вы можете выбрать дополнительный боевой стиль.</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Меткий Стрелок:</strong>&nbsp;Вы получаете +2 к броскам атаки дальнего боя.<br>
+</li>
+<li data-line="2" dir="auto"><strong>Слепой Боец:</strong>&nbsp;Вы не совершаете броски атаки с помехой, когда атакуете существо, которое вы не видите, но слышите или местонахождение которого знаете иным способом.<br>
+</li>
+<li data-line="4" dir="auto"><strong>Ближний Выстрел:</strong>&nbsp;Вы получаете +2 к броскам урона, наносимого дальними атаками. Вы больше не совершаете броски атаки с помехой, когда используете дальнюю атаку в пределах 5 футов от существа.<br>
+</li>
+<li data-line="6" dir="auto"><strong>Лучник:</strong>&nbsp;Вы можете использовать модификатор Силы вместо Ловкости для бросков атаки и урона, совершаемых луками и арбалетами.<br>
+</li>
+<li data-line="8" dir="auto"><strong>Два Оружия:</strong>&nbsp;Когда вы держите второе оружие в другой руке, вы можете использовать его для атаки в рамках вашего основного действия атаки. Вы не можете применять бонусы или умения, связанные с этим вторым оружием, если оно не является вашей основной атакой.<br>
+</li>
+<li data-line="10" dir="auto"><strong>Выживание:</strong>&nbsp;Ваша скорость плавания и лазания равна вашей обычной скорости ходьбы. Ваш Класс Доспеха (КД) увеличивается на 1.<br>
+</li>
+<li data-line="12" dir="auto"><strong>Дуэлянт:</strong>&nbsp;Если вы держите только одно рукопашное оружие в одной руке и не держите щит, вы получаете +2 к броскам атаки этим оружием.<br>
+</li>
+<li data-line="14" dir="auto"><strong>Большой Меч:</strong>&nbsp;Когда вы совершаете бросок урона двуручным оружием и получаете 1 или 2, вы можете перебросить кость и должны использовать новый результат.<br>
+</li>
+<li data-line="16" dir="auto"><strong>Защита:</strong>&nbsp;Если вы держите щит или оружие, вы можете использовать свою реакцию, чтобы заблокировать 1к10 + Модификатор Атаки Фиксера урона от одной атаки.<br>
+</li>
+<li data-line="18" dir="auto"><strong>Копейщик:</strong>&nbsp;Вы больше не совершаете броски атаки с помехой, когда атакуете в ближнем бою существ в пределах 5 футов от себя, если используете копье. Урон копья заменяется на 2к6 вместо 1к6.<br>
+</li>
+<li data-line="20" dir="auto"><strong>Рукопашник:</strong>&nbsp;Вы владеете импровизированным оружием, и ваши кулаки считаются импровизированным оружием, наносящим 1к4 дробящего урона.<br>
+</li>
+</ul></div><div class="el-p"><p dir="auto"><strong>Ненормальные Способности (2-й уровень):</strong><br>
+Ваша генетика одарила вас одной из следующих ненормальных способностей. Вы выбираете одну на 2-м, 7-м и 14-м уровнях.</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Ненормальная Сила:</strong>&nbsp;Вы получаете преимущество в проверках Силы и спасбросках Силы. Ваш максимум Силы увеличивается на 2, до 22.<br>
+</li>
+<li data-line="2" dir="auto"><strong>Ненормальная Скорость:</strong>&nbsp;Ваша скорость ходьбы увеличивается на 10 футов. Вы получаете +1 к броскам инициативы.<br>
+</li>
+<li data-line="4" dir="auto"><strong>Ненормальная Стойкость:</strong>&nbsp;Вы можете уменьшить получаемый урон на величину вашего модификатора Телосложения (минимум 0).<br>
+</li>
+<li data-line="6" dir="auto"><strong>Ненормальный Интеллект:</strong>&nbsp;Время, необходимое для изучения чего-либо, сокращается вдвое. При проверках характеристик, связанных с областями знаний, в которых вы не являетесь экспертом, вы можете добавить половину вашего модификатора Интеллекта (округляя в большую сторону).<br>
+</li>
+<li data-line="8" dir="auto"><strong>Ненормальная Мудрость:</strong>&nbsp;Вы получаете владение навыками Восприятие и Проницательность.<br>
+</li>
+<li data-line="10" dir="auto"><strong>Ненормальное Обаяние:</strong>&nbsp;Вы получаете преимущество в проверках Харизмы, совершаемых для социального взаимодействия.<br>
+</li>
+</ul></div><div class="el-p"><p dir="auto"><strong>Свет (2-й уровень):</strong><br>
+На 2-м уровне вы получаете доступ к "Свету" — источнику энергии, схожему с маной. Количество доступного Света определяется вашим подклассом и уровнем Фиксера. Для использования Света вы выбираете одну из следующих характеристик: Интеллект, Мудрость или Харизма. В начале вы выбираете 2 способности, использующие Свет. Дополнительные способности, использующие Свет, вы выбираете на 4-м, 8-м, 12-м, 16-м и 19-м уровнях.</p></div><div class="el-p"><p dir="auto"><strong>Список способностей:</strong></p></div><div class="el-p"><p dir="auto"><strong>Пугающая Атака</strong><br>
+При попадании оружейной атакой вы можете потратить 1 единицу Света, чтобы попытаться напугать цель болью. К урону атаки добавляется 1к8 урона. Цель должна совершить спасбросок Мудрости. При провале — боится вас до конца вашего следующего хода.</p></div><div class="el-p"><p dir="auto"><strong>Горизонтальный Разрез</strong><br>
+При попадании ближней атакой вы можете потратить 1 кубик Света, чтобы попытаться повредить другого врага той же атакой. Выберите другое существо в пределах 5 футов от изначальной цели и в пределах досягаемости вашего оружия. Если атака по оригинальной цели попадает по второму, он получает урон вашего оружия.</p></div><div class="el-p"><p dir="auto"><strong>Пули Рикошета</strong><br>
+Перед выполнением дальнего броска атаки вы можете потратить 2 единицы Света, чтобы атака отскочила к другим целям. При попадании наносите дополнительный 1к8 урона и выбирайте вторую цель в пределах 15 футов. Если ваш бросок атаки попадает и по второй цели, нанесите ей урон равный этому 1к8. </p></div><div class="el-p"><p dir="auto"><strong>Нападение</strong><br>
+Потратите 3 единицы Света бонусным действием, чтобы получить эффект повышения уровня атаки (<strong>Offense Level Up</strong>) до начала вашего следующего хода.</p></div><div class="el-p"><p dir="auto"><strong>Захват</strong><br>
+Сразу после попадания ближней атакой вы можете потратить 1 единицу Света и попытаться схватить цель бонусным действием.</p></div><div class="el-p"><p dir="auto"><strong>В рассыпную</strong><br>
+За 1 единицу Света примените к оружейной атаке, после чего можете переместиться на 5 футов без провоцирования атаки.</p></div><div class="el-p"><p dir="auto"><strong>Финт</strong><br>
+Потратите 1 единицу Света и используйте бонусное действие для финта на цель в радиусе 5 футов. Следующая атака по этой цели в этот ход совершается с преимуществом и при попадании получает бонус +1к8 к урону.</p></div><div class="el-p"><p dir="auto"><strong>Тяжёлый Удар</strong><br>
+При попадании ближней атакой потратьте 1 единицу Света, чтобы попытаться оттолкнуть цель назад. К урону добавляется 1к8. Цель размером Large или меньше должна совершить спасбросок Силы. При провале отталкивается на 15 футов.</p></div><div class="el-p"><p dir="auto"><strong>Готовность к Удару</strong><br>
+За 1 единицу Света, используя бонусное действие, сокращаете весь принимаемый урон на ваш модификатор Телосложения до начала следующего хода.</p></div><div class="el-p"><p dir="auto"><strong>Пронзающий Выстрел</strong><br>
+Потратите 3 единицы Света при стрельбе, чтобы превратить её в линию длиной 30 футов. Все существа в линии должны совершить спасбросок Ловкости. При провале получают урон оружием, при успехе — нет.</p></div><div class="el-p"><p dir="auto"><strong>Прицел</strong><br>
+Потратьте 2 единицы Света перед броском атаки, чтобы добавить 1к8 к итоговому результату.</p></div><div class="el-p"><p dir="auto">Свет полностью восстанавливается после долгого отдыха</p></div><div class="el-p"><p dir="auto"><strong>Клэши (3-й уровень):</strong><br>
+На 3-м уровне вы осваиваете механику "Клэшей". Затратив 2 единицы Света в качестве реакции, когда вас атакуют, вы можете инициировать клэш с атакующей целью.&nbsp;<strong>Вы должны объявить о клэше ДО того, как атакующий совершит бросок атаки.</strong></p></div><div class="el-p"><p dir="auto">Клэши происходят следующим образом: вы и атакующий совершаете броски атаки (используя то, чем атакующий совершал свою атаку, или ваш бросок атаки, если вы являетесь инициатором). Тот, кто выбросит больше, побеждает в клэше.</p></div><div class="el-p"><p dir="auto"><strong>Виды Клэшей:</strong></p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Контратака (Counter):</strong>&nbsp;Если вы выигрываете клэш, вы можете совершить атаку по цели, не получая урона от атаки, с которой вы клэшировали.<br>
+</li>
+<li data-line="2" dir="auto"><strong>Защита (Defense):</strong>&nbsp;Вы блокируете количество урона независимо от исхода клэша. Если атака является массовой, весь урон перенаправляется на вас, и существа вокруг вас не получают урона, как будто они находились за укрытием.<br>
+</li>
+<li data-line="4" dir="auto"><strong>Отмена (Cancel):</strong>&nbsp;Если вы выигрываете клэш, вы не получаете урона от атаки и устанавливаете скорость цели на 0 до начала ее следующего хода. Это не работает с дальними атаками.<br>
+</li>
+</ul></div><div class="el-p"><p dir="auto">Также, существо, которое клэшируют, может потратить 4 единицы Света, чтобы стать инициатором клэша, выбрав один из описанных выше эффектов (Контратака, Защита или Отмена).</p></div><div class="el-p"><p dir="auto"><strong>Увеличение Характеристик (4-й уровень):</strong><br>
+На 4-м, 8-м, 12-м, 16-м и 19-м уровнях вы можете увеличить одну из ваших характеристик на 2 или две характеристики на 1. Вы не можете увеличить значение характеристики выше 20.</p></div><div class="el-p"><p dir="auto"><strong>Дополнительная Атака (5-й уровень):</strong><br>
+На 5-м уровне вы можете атаковать дважды, когда совершаете действие "Атака" в свой ход. На 11-м уровне количество атак увеличивается до трех.</p></div><div class="mod-footer mod-ui"></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="классы\фиксеры\фиксеры.html#Фиксеры"><div class="tree-item-contents heading-link" heading-name="Фиксеры"><span class="tree-item-title">Фиксеры</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>

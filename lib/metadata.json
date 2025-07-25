@@ -1,39 +1,69 @@
 {
   "vaultName": "DAD",
-  "lastExport": 1753476624513,
+  "lastExport": 1753479670827,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
-    "lib/scripts/graph-wasm.wasm",
-    "lib/fonts/94f2f163d4b698242fef.otf",
-    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "Классы/Блудфинды/Блудфинды (Класс).md",
+    "Классы/Блудфинды/Блудфинды (Раса).md",
+    "Классы/Искаженный/Искаженный (Наполовину).md",
+    "Классы/Фиксеры/Инквизитор N-корп.md",
+    "Классы/Фиксеры/Книги (Остатки Библиотеки).md",
+    "Классы/Фиксеры/Курокумо.md",
+    "Классы/Фиксеры/Лью ассоциация (Север).md",
+    "Классы/Фиксеры/Лью ассоциация (ЮГ).md",
+    "Классы/Фиксеры/Нагетсы (Остаток Лоботомии).md",
+    "Классы/Фиксеры/Офис Огненный кулак.md",
+    "Классы/Фиксеры/Офис Точки.md",
+    "Классы/Фиксеры/Родословная клинка.md",
+    "Классы/Фиксеры/Средний палец.md",
+    "Классы/Фиксеры/Фиксеры.md",
+    "Классы/Фиксеры/Хейшо (Си).md",
+    "Классы/Фиксеры/Ши ассоциация.md",
+    "Классы/Фиксеры/R-корп.md",
+    "Классы/Фиксеры/W-корп.md",
+    "Лор/Сеттинг.md",
+    "Лор/Экипировка.md",
+    "Правила/Артефакты.md",
+    "Правила/Броня.md",
+    "Правила/Навыки.md",
+    "Правила/Оружия.md",
+    "Правила/Статусные эффекты.md",
+    "Правила/Э.Г.О.md",
     "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
     "lib/fonts/c8ba52b05a9ef10f4758.woff2",
     "lib/fonts/cb10ffd7684cd9836a05.woff2",
-    "lib/fonts/b5f0f109bc88052d4000.woff2",
     "lib/fonts/cbe0ae49c52c920fd563.woff2",
-    "lib/fonts/535a6cf662596b3bd6a6.woff2",
-    "lib/fonts/70cc7ff27245e82ad414.ttf",
-    "lib/fonts/454577c22304619db035.ttf",
-    "lib/fonts/52ac8f3034507f1d9e53.ttf",
-    "lib/fonts/05b618077343fbbd92b7.ttf",
-    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-    "lib/media/6155340132a851f6089e.svg",
     "lib/html/file-tree.html",
-    "lib/scripts/webpage.js",
-    "lib/scripts/graph-view.js",
-    "lib/scripts/graph-wasm.js",
-    "lib/scripts/graph-render-worker.js",
-    "lib/scripts/tinycolor.js",
-    "lib/scripts/pixi.js",
-    "lib/scripts/minisearch.js",
+    "lib/media/6155340132a851f6089e.svg",
     "lib/media/favicon.png",
     "lib/scripts/graph-data.js",
-    "lib/styles/obsidian.css",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.wasm",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/minisearch.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/webpage.js",
     "lib/styles/global-variable-styles.css",
-    "lib/styles/main-styles.css"
+    "lib/styles/main-styles.css",
+    "lib/styles/obsidian.css",
+    "lib/metadata.json",
+    "lib/rss.xml",
+    "lib/search-index.json",
+    "Index.md"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -67,171 +97,351 @@
   ],
   "fileInfo": {
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1753476624513,
-      "sourceSize": 655,
+      "modifiedTime": 1753479670827,
+      "sourceSize": 55444,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1753476624513,
-      "sourceSize": 279,
+      "modifiedTime": 1753479670827,
+      "sourceSize": 1627,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 138258,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 262,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1753476624513,
+      "modifiedTime": 1753479670827,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "Классы/Блудфинды/Блудфинды (Класс).md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 3581,
+      "exportedPath": "классы/блудфинды/блудфинды-(класс).html",
+      "dependencies": []
+    },
+    "Классы/Блудфинды/Блудфинды (Раса).md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 4508,
+      "exportedPath": "классы/блудфинды/блудфинды-(раса).html",
+      "dependencies": []
+    },
+    "Классы/Искаженный/Искаженный (Наполовину).md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 2339,
+      "exportedPath": "классы/искаженный/искаженный-(наполовину).html",
+      "dependencies": []
+    },
+    "Классы/Фиксеры/Инквизитор N-корп.md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 3550,
+      "exportedPath": "классы/фиксеры/инквизитор-n-корп.html",
+      "dependencies": []
+    },
+    "Классы/Фиксеры/Книги (Остатки Библиотеки).md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 2091,
+      "exportedPath": "классы/фиксеры/книги-(остатки-библиотеки).html",
+      "dependencies": []
+    },
+    "Классы/Фиксеры/Курокумо.md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 2249,
+      "exportedPath": "классы/фиксеры/курокумо.html",
+      "dependencies": []
+    },
+    "Классы/Фиксеры/Лью ассоциация (Север).md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 1554,
+      "exportedPath": "классы/фиксеры/лью-ассоциация-(север).html",
+      "dependencies": []
+    },
+    "Классы/Фиксеры/Лью ассоциация (ЮГ).md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 1588,
+      "exportedPath": "классы/фиксеры/лью-ассоциация-(юг).html",
+      "dependencies": []
+    },
+    "Классы/Фиксеры/Нагетсы (Остаток Лоботомии).md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 3660,
+      "exportedPath": "классы/фиксеры/нагетсы-(остаток-лоботомии).html",
+      "dependencies": []
+    },
+    "Классы/Фиксеры/Офис Огненный кулак.md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 5259,
+      "exportedPath": "классы/фиксеры/офис-огненный-кулак.html",
+      "dependencies": []
+    },
+    "Классы/Фиксеры/Офис Точки.md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 5640,
+      "exportedPath": "классы/фиксеры/офис-точки.html",
+      "dependencies": []
+    },
+    "Классы/Фиксеры/Родословная клинка.md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 1990,
+      "exportedPath": "классы/фиксеры/родословная-клинка.html",
+      "dependencies": []
+    },
+    "Классы/Фиксеры/Средний палец.md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 2160,
+      "exportedPath": "классы/фиксеры/средний-палец.html",
+      "dependencies": []
+    },
+    "Классы/Фиксеры/Фиксеры.md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 18649,
+      "exportedPath": "классы/фиксеры/фиксеры.html",
+      "dependencies": []
+    },
+    "Классы/Фиксеры/Хейшо (Си).md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 3254,
+      "exportedPath": "классы/фиксеры/хейшо-(си).html",
+      "dependencies": []
+    },
+    "Классы/Фиксеры/Ши ассоциация.md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 2040,
+      "exportedPath": "классы/фиксеры/ши-ассоциация.html",
+      "dependencies": []
+    },
+    "Классы/Фиксеры/R-корп.md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 4081,
+      "exportedPath": "классы/фиксеры/r-корп.html",
+      "dependencies": []
+    },
+    "Классы/Фиксеры/W-корп.md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 2313,
+      "exportedPath": "классы/фиксеры/w-корп.html",
+      "dependencies": []
+    },
+    "Лор/Сеттинг.md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 5156,
+      "exportedPath": "лор/сеттинг.html",
+      "dependencies": []
+    },
+    "Лор/Экипировка.md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 8750,
+      "exportedPath": "лор/экипировка.html",
+      "dependencies": []
+    },
+    "Правила/Артефакты.md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 5420,
+      "exportedPath": "правила/артефакты.html",
+      "dependencies": []
+    },
+    "Правила/Броня.md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 4159,
+      "exportedPath": "правила/броня.html",
+      "dependencies": []
+    },
+    "Правила/Навыки.md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 19330,
+      "exportedPath": "правила/навыки.html",
+      "dependencies": []
+    },
+    "Правила/Оружия.md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 20036,
+      "exportedPath": "правила/оружия.html",
+      "dependencies": []
+    },
+    "Правила/Статусные эффекты.md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 7857,
+      "exportedPath": "правила/статусные-эффекты.html",
+      "dependencies": []
+    },
+    "Правила/Э.Г.О.md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 3074,
+      "exportedPath": "правила/э.г.о.html",
+      "dependencies": []
+    },
+    "lib/metadata.json": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 7844,
+      "exportedPath": "lib/metadata.json",
+      "dependencies": []
+    },
+    "lib/rss.xml": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 661,
+      "exportedPath": "lib/rss.xml",
+      "dependencies": []
+    },
+    "lib/search-index.json": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 160105,
+      "exportedPath": "lib/search-index.json",
+      "dependencies": []
+    },
+    "Index.md": {
+      "modifiedTime": 1753479670827,
+      "sourceSize": 123,
+      "exportedPath": "index.html",
       "dependencies": []
     }
   }
