@@ -1,0 +1,338 @@
+<!DOCTYPE html> <html lang="ru"><head>
+<title>Кроводемоны</title>
+<base href="../..">
+<meta name="pathname" content="классы/кроводемоны/кроводемоны.html">
+<meta name="description" content="DAD - Кроводемоны">
+<meta property="og:title" content="Кроводемоны">
+<meta property="og:description" content="DAD - Кроводемоны">
+<meta property="og:type" content="website">
+<meta property="og:url" content="классы/кроводемоны/кроводемоны.html">
+<meta property="og:image" content="undefined">
+<meta charset="UTF-8"><meta property="og:site_name" content="DAD"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="site-lib/rss.xml"><script async="" id="webpage-script" src="site-lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-wasm-script" src="site-lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="site-lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="site-lib/media/favicon.png"><link rel="stylesheet" href="site-lib/styles/obsidian.css"><link rel="preload" href="site-lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="site-lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/main-styles.css"></noscript><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-vertical-spacing:1.3em;--sidebar-margin:12px}:root{background-color:#202124}.sidebar{height:100%;font-size:14px;z-index:10;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));position:relative;overflow:hidden;overflow:clip;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}#left-sidebar{left:0}#right-sidebar{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}.sidebar.floating{position:absolute}.sidebar .leaf-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .leaf-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}#left-sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}#right-sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar #left-sidebar-content,.sidebar #right-sidebar-content{contain:none!important;container-type:normal!important;animation:none!important}.sidebar:has(.leaf-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:calc(2.3em + 2 * var(--sidebar-margin));width:var(--sidebar-width);padding:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}#left-sidebar .sidebar-topbar{left:0;flex-direction:row;border-top-right-radius:var(--radius-l)}#right-sidebar .sidebar-topbar{right:0;flex-direction:row-reverse;border-top-left-radius:var(--radius-l)}#left-sidebar .topbar-content{margin-right:calc(2.3em + var(--sidebar-margin));flex-direction:row}#right-sidebar .topbar-content{margin-left:calc(2.3em + var(--sidebar-margin));flex-direction:row-reverse}.topbar-content{overflow:hidden visible;overflow:clip visible;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:2px!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}#left-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}#right-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.feature-title{margin-left:1px;text-transform:uppercase;letter-spacing:.06em;margin-top:.75em;margin-bottom:.75em}.feature-header{display:flex;align-items:center;padding-top:0;font-size:1em;padding-left:0}body.floating-sidebars .sidebar{position:absolute}body{transition:background-color var(--color-fade-speed) ease-in-out}#navbar:not(:empty){display:flex;align-items:center;justify-content:space-between;padding:.5em 1em;width:100%}#main{display:flex;flex-direction:column;height:100%;width:100%;align-items:stretch;justify-content:center}#main-horizontal{display:flex;flex-direction:row;flex-grow:1;width:100%;align-items:stretch;justify-content:center}#center-content{flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0!important;transition:opacity .2s ease-in-out;pointer-events:none}#center-content>.obsidian-document{padding-left:2em;padding-right:1em;margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}body #center-content>.obsidian-document>.markdown-preview-sizer{padding-bottom:80vh;width:100%;max-width:var(--line-width);flex-basis:var(--line-width);transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document>div{width:100%!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document:not([data-type=markdown]).embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}#center-content>.obsidian-document:not([data-type=markdown]).embed>*{max-width:100%;max-height:100%;object-fit:contain}:not(h1,h2,h3,h4,h5,h6,li):has(> :is(.math,table)){overflow-x:auto!important}#center-content>.obsidian-document:not([data-type=markdown]){overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.obsidian-document[data-type=attachment]{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;width:100%}.obsidian-document[data-type=attachment]>*{outline:0;border:none;box-shadow:none}.obsidian-document[data-type=attachment] :is(img){max-width:90%;max-height:90%;object-fit:contain}.obsidian-document[data-type=attachment]>:is(audio){width:100%;max-width:min(90%,var(--line-width))}.obsidian-document[data-type=attachment]>:is(embed,iframe,video){width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}.canvas-wrapper>:is(.header,.footer){z-index:100;position:absolute;display:flex;justify-content:center;flex-direction:column;width:100%;align-items:center}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){let e=document.querySelectorAll("link[itemprop='include']");for(const t of e){let e=t.getAttribute("href");try{let o="";if(e.startsWith("https:")||e.startsWith("http:")||"file:"!=window.location.protocol){const n=await fetch(e);if(!n.ok){console.log("Could not include file: "+e),t?.remove();continue}o=await n.text()}else{const t=document.getElementById(btoa(encodeURI(e)));if(t){const e=JSON.parse(decodeURI(atob(t.getAttribute("value")??"")));o=e?.data??""}}let n=document.createRange().createContextualFragment(o);t.before(n),t.remove(),console.log("Included text: "+o),console.log("Included file: "+e)}catch(o){t?.remove(),console.log("Could not include file: "+e,o);continue}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script")));!function e(n){let l=o[n],c=n+1;l?(l&&"true"!=l.getAttribute("loaded")||n<o.length&&e(c),n<o.length&&l.addEventListener("load",(()=>e(c)))):n<o.length?e(c):t()}(0)}</script></head><body class="publish css-settings-manager styled-scrollbars show-inline-title show-ribbon is-focused"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="parsed-feature-container" style="display: contents;"><link itemprop="include" href="site-lib/html/custom-head-content-content.html"></div><div id="main"><div id="navbar"></div><div id="main-horizontal"><div id="left-content" class="leaf" style="--sidebar-width: var(--sidebar-width-left);"><div id="left-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><div id="search-container"><div id="search-wrapper"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div aria-label="Clear search" id="search-clear-button"></div></div></div></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="left-sidebar-content" class="leaf-content"><link itemprop="include" href="site-lib/html/file-tree-content.html"></div></div><script defer="">let ls = document.querySelector("#left-sidebar"); ls.classList.toggle("is-collapsed", window.innerWidth < 768); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div></div><div id="center-content" class="leaf"><div class="obsidian-document markdown-preview-view markdown-rendered node-insert-event is-readable-line-width allow-fold-headings allow-fold-lists show-indentation-guide show-properties" data-type="markdown"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><div class="header"><h1 class="page-title heading inline-title" id="Кроводемоны_0">Кроводемоны</h1><div class="data-bar"></div></div><div class="markdown-preview-pusher" style="width: 1px; height: 0.1px; margin-bottom: 0px;"></div><div class="el-p"><p dir="auto"><em>“Есть поколение, чьи зубы — мечи, а зубы челюстей — ножи, чтобы пожирать бедных с земли и нуждающихся среди людей. Ибо они пролили кровь святых и пророков, и Ты дал им пить кровь; ибо они достойны этого.”</em></p></div><div class="el-p"><p dir="auto"><strong>Кость Хитов:</strong>&nbsp;1к12 за каждый уровень Фиксера.<br>
+<strong>Хиты на 1 уровне:</strong>&nbsp;12 + модификатор Телосложения.<br>
+<strong>Хиты на последующих уровнях:</strong>&nbsp;1к12 (или 7) + модификатор Телосложения за каждый уровень Кроводемона после 1-го.</p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Уровень</th>
+<th dir="ltr">Бонус</th>
+<th dir="ltr">Свет</th>
+<th align="left" dir="ltr">Особенности</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">1st</td>
+<td dir="auto">+2</td>
+<td dir="auto">0</td>
+<td align="left" dir="ltr">Родство, Броски, Сверхчеловек, Оружие из крови</td>
+</tr>
+<tr>
+<td dir="ltr">2nd</td>
+<td dir="auto">+2</td>
+<td dir="auto">2</td>
+<td align="left" dir="ltr">Боевые стили, , Свет</td>
+</tr>
+<tr>
+<td dir="ltr">3rd</td>
+<td dir="auto">+2</td>
+<td dir="auto">3</td>
+<td align="left" dir="ltr">Клэши, Родство, Кровавый пир</td>
+</tr>
+<tr>
+<td dir="ltr">4th</td>
+<td dir="auto">+2</td>
+<td dir="auto">4</td>
+<td align="left" dir="ltr">Улучшение характеристик, Свет техника, Манипуляция кровью</td>
+</tr>
+<tr>
+<td dir="ltr">5th</td>
+<td dir="auto">+3</td>
+<td dir="auto">5</td>
+<td align="left" dir="ltr">Экстра атака, Вампирическая регенерация</td>
+</tr>
+<tr>
+<td dir="ltr">6th</td>
+<td dir="auto">+3</td>
+<td dir="auto">6</td>
+<td align="left" dir="ltr">Родство, Насадить на шип</td>
+</tr>
+<tr>
+<td dir="ltr">7th</td>
+<td dir="auto">+3</td>
+<td dir="auto">7</td>
+<td align="left" dir="ltr">Нечеловеческая мощь, Уклонение</td>
+</tr>
+<tr>
+<td dir="ltr">8th</td>
+<td dir="auto">+3</td>
+<td dir="auto">8</td>
+<td align="left" dir="ltr">Улучшение характеристик, Свет техника, Кровавая приливная волна</td>
+</tr>
+<tr>
+<td dir="ltr">9th</td>
+<td dir="auto">+4</td>
+<td dir="auto">9</td>
+<td align="left" dir="ltr">Демоническая конструкт</td>
+</tr>
+<tr>
+<td dir="ltr">10th</td>
+<td dir="auto">+4</td>
+<td dir="auto">10</td>
+<td align="left" dir="ltr">Родство, Личные мешки с кровью</td>
+</tr>
+<tr>
+<td dir="ltr">11th</td>
+<td dir="auto">+4</td>
+<td dir="auto">11</td>
+<td align="left" dir="ltr">Экстра атака</td>
+</tr>
+<tr>
+<td dir="ltr">12th</td>
+<td dir="auto">+4</td>
+<td dir="auto">12</td>
+<td align="left" dir="ltr">Улучшение характеристик, Свет техника</td>
+</tr>
+<tr>
+<td dir="ltr">13th</td>
+<td dir="auto">+5</td>
+<td dir="auto">13</td>
+<td align="left" dir="ltr">Родство, Улучшенное кровавое создание</td>
+</tr>
+<tr>
+<td dir="ltr">14th</td>
+<td dir="auto">+5</td>
+<td dir="auto">14</td>
+<td align="left" dir="ltr">Мощное тело</td>
+</tr>
+<tr>
+<td dir="ltr">15th</td>
+<td dir="auto">+5</td>
+<td dir="auto">15</td>
+<td align="left" dir="ltr">Не сломлен</td>
+</tr>
+<tr>
+<td dir="ltr">16th</td>
+<td dir="auto">+5</td>
+<td dir="auto">16</td>
+<td align="left" dir="ltr">Улучшение характеристик, Свет техника, Угрожающая аура</td>
+</tr>
+<tr>
+<td dir="ltr">17th</td>
+<td dir="auto">+6</td>
+<td dir="auto">17</td>
+<td align="left" dir="ltr">Родство, Высший Сородич</td>
+</tr>
+<tr>
+<td dir="ltr">18th</td>
+<td dir="auto">+6</td>
+<td dir="auto">18</td>
+<td align="left" dir="ltr">Шаг крови, Признание</td>
+</tr>
+<tr>
+<td dir="ltr">19th</td>
+<td dir="auto">+6</td>
+<td dir="auto">19</td>
+<td align="left" dir="ltr">Улучшение характеристик, Свет техника</td>
+</tr>
+<tr>
+<td dir="ltr">20th</td>
+<td dir="auto">+6</td>
+<td dir="auto">20</td>
+<td align="left" dir="ltr">Королевская власть</td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto"><strong>Владение:</strong></p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><strong>Броня:</strong>&nbsp;Легкая броня, Средняя броня, Щиты.<br>
+</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span><strong>Оружие:</strong>&nbsp;Простое оружие, Воинское оружие, Огнестрельное оружие.<br>
+</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span><strong>Инструменты:</strong>&nbsp;Один инструмент на ваш выбор. С разрешения Мастера, вы можете выбрать два инструмента, обосновав свой выбор.<br>
+</li>
+<li data-line="6" dir="auto"><span class="list-bullet"></span><strong>Спасброски:</strong>&nbsp;Сила или Ловкость, Телосложение.<br>
+</li>
+<li data-line="8" dir="auto"><span class="list-bullet"></span><strong>Навыки:</strong>&nbsp;Выберите 3 из следующих: Атлетика, Акробатика, Выживание, Скрытность, Анализ (Расследование), Запугивание, Проницательность (Проницательность), Медицина.<br>
+</li>
+</ul></div><div class="el-p"><p dir="auto"><strong>Снаряжение:</strong><br>
+Вы начинаете со следующим снаряжением, в дополнение к снаряжению, полученному от предыстории:</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>Легкая броня и Щит<br>
+</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>Одно воинское оружие или два простых оружия.<br>
+</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span>Один инструмент, которым вы владеете.<br>
+</li>
+<li data-line="6" dir="auto"><span class="list-bullet"></span>4к4 х 10 Анн.<br>
+</li>
+</ul></div><div class="el-p"><p dir="auto"><strong>Уникальные Особенности Класса:</strong></p></div><div class="el-p"><p dir="auto"><strong>Принадлежность к Родству:</strong>&nbsp;В зависимости от выбранного вами Родства, вы получаете различные бонусы на 1-м, 3-м, 6-м, 10-м, 13-м и 17-м уровнях.</p></div><div class="el-p"><p dir="auto"><strong>Бонусы Кровожада:</strong></p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><strong>Модификатор Способности Кровожада:</strong>&nbsp;Модификатор Силы или Ловкости (на ваш выбор).<br>
+</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span><strong>Сложность Спас Броска Кровожада (СБК):</strong>&nbsp;8 + бонус мастерства + модификатор Силы или Ловкости.<br>
+</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span><strong>Модификатор Атаки:</strong>&nbsp;Бонус мастерства + модификатор Силы или Ловкости.<br>
+</li>
+</ul></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Сверхчеловек (1-й уровень):</strong><br>
+На 1-м уровне ваша Сила, Ловкость и Телосложение увеличиваются на&nbsp;<strong>1</strong>. Ваша скорость ходьбы увеличивается на&nbsp;<strong>10 футов</strong>, дальность прыжка удваивается, а ваши безоружные удары наносят&nbsp;<strong>1d8</strong>&nbsp;рубящего, колющего или дробящего урона — тип вы выбираете при атаке.<br>
+Вместо 0,35 литра крови в день вам требуется количество литров крови в день, равное вашему уровню, умноженному на 0,35. Ваша регенерация больше не использует кости хитов, а имеет отдельный пул кубов регенерации.</p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Оружие из крови (1-й уровень):</strong><br>
+На 1-м уровне вы получаете возможность создавать оружие из закалённой крови бонусным действием в свой ход. При этом вы получаете 4 стака Крови, чтобы извлечь кровь из себя и создать простое или метательное оружие, которым вы владеете; оно наносит свой обычный урон и накладывает 2 Крови при попадании.<br>
+Вы также можете усилить уже имеющееся оружие, и тогда оно просто будет накладывать 2 Крови. Вы можете создать число таких оружий, равное вашему бонусу мастерства, и можете в любой момент как бесплатное действие снять усиление с усиленного оружия или растворить созданное оружие в луже крови.</p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Боевые Стили (2-й уровень):</strong><br>
+На 2-м уровне вы выбираете один из следующих боевых стилей. На 10-м уровне вы можете выбрать дополнительный боевой стиль.</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><strong>Меткий Стрелок:</strong>&nbsp;Вы получаете +2 к броскам атаки дальнего боя.<br>
+</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span><strong>Слепой Боец:</strong>&nbsp;Вы не совершаете броски атаки с помехой, когда атакуете существо, которое вы не видите, но слышите или местонахождение которого знаете иным способом.<br>
+</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span><strong>Ближний Выстрел:</strong>&nbsp;Вы получаете +2 к броскам урона, наносимого дальними атаками. Вы больше не совершаете броски атаки с помехой, когда используете дальнюю атаку в пределах 5 футов от существа.<br>
+</li>
+<li data-line="6" dir="auto"><span class="list-bullet"></span><strong>Лучник:</strong>&nbsp;Вы можете использовать модификатор Силы вместо Ловкости для бросков атаки и урона, совершаемых луками и арбалетами.<br>
+</li>
+<li data-line="8" dir="auto"><span class="list-bullet"></span><strong>Два Оружия:</strong>&nbsp;Когда вы держите второе оружие в другой руке, вы можете использовать его для атаки в рамках вашего основного действия атаки. Вы не можете применять бонусы или умения, связанные с этим вторым оружием, если оно не является вашей основной атакой.<br>
+</li>
+<li data-line="10" dir="auto"><span class="list-bullet"></span><strong>Выживание:</strong>&nbsp;Ваша скорость плавания и лазания равна вашей обычной скорости ходьбы. Ваш Класс Доспеха (КД) увеличивается на 1.<br>
+</li>
+<li data-line="12" dir="auto"><span class="list-bullet"></span><strong>Дуэлянт:</strong>&nbsp;Если вы держите только одно рукопашное оружие в одной руке и не держите щит, вы получаете +2 к броскам атаки этим оружием.<br>
+</li>
+<li data-line="14" dir="auto"><span class="list-bullet"></span><strong>Большой Меч:</strong>&nbsp;Когда вы совершаете бросок урона двуручным оружием и получаете 1 или 2, вы можете перебросить кость и должны использовать новый результат.<br>
+</li>
+<li data-line="16" dir="auto"><span class="list-bullet"></span><strong>Защита:</strong>&nbsp;Если вы держите щит или оружие, вы можете использовать свою реакцию, чтобы заблокировать 1к6 (на 6 уровне повышается до 1к8, также повышается на одну ступень на 10 и 16 уровне) + Модификатор Атаки Фиксера урона от одной атаки.<br>
+</li>
+<li data-line="18" dir="auto"><span class="list-bullet"></span><strong>Копейщик:</strong>&nbsp;Вы больше не совершаете броски атаки с помехой, когда атакуете в ближнем бою существ в пределах 5 футов от себя, если используете копье. Урон копья заменяется на 2к6 вместо 1к12.<br>
+</li>
+<li data-line="20" dir="auto"><span class="list-bullet"></span><strong>Рукопашник:</strong>&nbsp;Вы владеете импровизированным оружием, и ваши кулаки считаются импровизированным оружием, наносящим 1к4 дробящего урона.<br>
+</li>
+<li data-line="22" dir="auto"><span class="list-bullet"></span><strong>Иайдзюцу:</strong> Вы делает первую атаку когда достаете свое оружие с ножн, с преимуществом. Можете убрать свое оружие обратно в ножны бонусным действием.<br>
+</li>
+<li data-line="24" dir="auto"><span class="list-bullet"></span><strong>Туннельный боец:</strong> Как бонусным действием можете встать в защитную стойку что действует до следующего хода. Пока вы в ней вы можете атаковать существ по которым вы можете совершить провоцированную атаку, но также вы не тратите свою реакцию на них.</li>
+</ul></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Свет (2-й уровень):</strong><br>
+На 2-м уровне вы получаете доступ к "Свету" — источнику энергии, схожему с маной. Количество доступного Света определяется вашим подклассом и уровнем Фиксера. Для использования Света вы выбираете одну из следующих характеристик: Интеллект, Мудрость или Харизма. В начале вы выбираете 2 способности, использующие Свет. Дополнительные способности, использующие Свет, вы выбираете на 4-м, 8-м, 12-м, 16-м и 19-м уровнях.</p></div><div class="el-p"><p dir="auto"><strong>Список способностей:</strong></p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>
+<p><strong>Пугающая Атака</strong><br>
+При попадании оружейной атакой вы можете потратить 1 единицу Света, чтобы попытаться напугать цель болью. К урону атаки добавляется 1к8 урона. Цель должна совершить спасбросок Мудрости. При провале — боится вас до конца вашего следующего хода.</p>
+</li>
+<li data-line="3" dir="auto"><span class="list-bullet"></span>
+<p><strong>Горизонтальный Разрез</strong><br>
+При попадании ближней атакой вы можете потратить 1 кубик Света, чтобы попытаться повредить другого врага той же атакой. Выберите другое существо в пределах 5 футов от изначальной цели и в пределах досягаемости вашего оружия. Если атака по оригинальной цели попадает по второму, он получает урон вашего оружия.</p>
+</li>
+<li data-line="6" dir="auto"><span class="list-bullet"></span>
+<p><strong>Пули Рикошета</strong><br>
+Перед выполнением дальнего броска атаки вы можете потратить 2 единицы Света, чтобы атака отскочила к другим целям. При попадании наносите дополнительный 1к8 урона и выбирайте вторую цель в пределах 15 футов. Если ваш бросок атаки попадает и по второй цели, нанесите ей урон равный этому 1к8. </p>
+</li>
+<li data-line="9" dir="auto"><span class="list-bullet"></span>
+<p><strong>Нападение</strong><br>
+Потратите 3 единицы Света бонусным действием, чтобы получить эффект Увеличение Нападения до начала вашего следующего хода.</p>
+</li>
+<li data-line="12" dir="auto"><span class="list-bullet"></span>
+<p><strong>Захват</strong><br>
+Сразу после попадания ближней атакой вы можете потратить 1 единицу Света и попытаться схватить цель бонусным действием.</p>
+</li>
+<li data-line="15" dir="auto"><span class="list-bullet"></span>
+<p><strong>В рассыпную</strong><br>
+За 1 единицу Света примените к оружейной атаке, после чего можете переместиться на 5 футов без провоцирования атаки.</p>
+</li>
+<li data-line="18" dir="auto"><span class="list-bullet"></span>
+<p><strong>Финт</strong><br>
+Потратите 1 единицу Света и используйте бонусное действие для финта на цель в радиусе 5 футов. Следующая атака по этой цели в этот ход совершается с преимуществом и при попадании получает бонус +1к8 к урону.</p>
+</li>
+<li data-line="21" dir="auto"><span class="list-bullet"></span>
+<p><strong>Тяжёлый Удар</strong><br>
+При попадании ближней атакой потратьте 1 единицу Света, чтобы попытаться оттолкнуть цель назад. К урону добавляется 1к8. Цель размером Large или меньше должна совершить спасбросок Силы. При провале отталкивается на 15 футов.</p>
+</li>
+<li data-line="24" dir="auto"><span class="list-bullet"></span>
+<p><strong>Готовность к Удару</strong><br>
+За 1 единицу Света, используя бонусное действие, сокращаете весь принимаемый урон на ваш модификатор Телосложения до начала следующего хода.</p>
+</li>
+<li data-line="27" dir="auto"><span class="list-bullet"></span>
+<p><strong>Пронзающий Выстрел</strong><br>
+Потратите 3 единицы Света при стрельбе, чтобы превратить её в линию длиной 30 футов. Все существа в линии должны совершить спасбросок Ловкости. При провале получают урон оружием, при успехе — нет.</p>
+</li>
+<li data-line="30" dir="auto"><span class="list-bullet"></span>
+<p><strong>Прицел</strong><br>
+Потратьте 2 единицы Света перед броском атаки, чтобы добавить 1к8 к итоговому результату.</p>
+</li>
+<li data-line="33" dir="auto"><span class="list-bullet"></span>
+<p><strong>Дуэль</strong><br>
+Потратьте 1 единицы Света чтобы попытаться вызвать 1 существо на дуэль. Существо должно пройти спас МУД. При провале существо влечет к вам, пока "заклинание" активно, это существо совершает с&nbsp;помехой&nbsp;броски атаки по всем существам кроме вас, и должно совершать спасброски&nbsp;МУД&nbsp;каждый раз, когда пытается переместиться в пространство, находящееся более чем в 30 футах от вас; в случае успеха это "заклинание" не ограничивает перемещения цели в этот ход. После получения любого урона дуэль спадает.</p>
+</li>
+<li data-line="36" dir="auto"><span class="list-bullet"></span>
+<p><strong>Перевязка</strong><br>
+За 1 единицу Света, используя бонусное действие, существо, которого вы касаетесь, восстанавливает количество хитов, равное&nbsp;1к8&nbsp;+ ваш модификатор базовой характеристики. Можно потратить больше света для апкаста.</p>
+</li>
+<li data-line="39" dir="auto"><span class="list-bullet"></span>
+<p><strong>Уворот</strong><br>
+За 1 единицу Света, реакция, вы получаете до начала своего следующего хода бонус&nbsp;<strong>+2</strong>&nbsp;к КД. Можно потратить больше света для апкаста.</p>
+</li>
+<li data-line="42" dir="auto"><span class="list-bullet"></span>
+<p><strong>Со всех ног</strong><br>
+За 3 единицы Света, действие, ваше тело становится размытым и колышущимся для всех, кто видит вас. Пока заклинание активно, все существа совершают по вам броски атаки с&nbsp;помехой. Действует 1 минуту.</p>
+</li>
+<li data-line="45" dir="auto"><span class="list-bullet"></span>
+<p><strong>Адреналин</strong><br>
+За 6 единицы Света, действие, вы даруете себе некоторую защиту от смерти. Когда ваши хиты впервые опускаются до&nbsp;0&nbsp;из-за получения урона, хиты опускаются всего лишь до&nbsp;1, и заклинание заканчивается. Действует 10 минут.</p>
+</li>
+<li data-line="48" dir="auto"><span class="list-bullet"></span>
+<p><strong>"Ало ублюдки!"</strong><br>
+За 1 единицу Света, бонусное действие, вы получаете 2 Агро на себя или на согласном союзнике. Можно апкастить.</p>
+</li>
+<li data-line="51" dir="auto"><span class="list-bullet"></span>
+<p><strong>Превозмочь трудности</strong><br>
+Потратьте 2 свет что бы совершить действие выше ваших возможностей. Киньте чистый d20, при прохождении сложности определённой ДМ (максимум 20) выполните это действие идеально </p>
+</li>
+</ul></div><div class="el-p"><p dir="auto">Свет полностью восстанавливается после долгого отдыха. Также свет восстанавливается на половину на коротком отдыхе.</p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Клэши (3-й уровень):</strong><br>
+На 3-м уровне вы осваиваете механику "Клэшей". Затратив 1 единицы Света в качестве реакции, когда вас атакуют, вы можете инициировать клэш с атакующей целью.&nbsp;<strong>Вы должны объявить о клэше ДО того, как атакующий совершит бросок атаки.</strong></p></div><div class="el-p"><p dir="auto">Клэши происходят следующим образом: вы и атакующий совершаете броски атаки (используя то, чем атакующий совершал свою атаку, или ваш бросок атаки, если вы являетесь инициатором). Тот, кто выбросит больше, побеждает в клэше.</p></div><div class="el-p"><p dir="auto"><strong>Виды Клэшей:</strong></p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><strong>Контратака (Counter):</strong>&nbsp;Если вы выигрываете клэш, вы можете совершить атаку по цели, не получая урона от атаки, с которой вы клэшировали.<br>
+</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span><strong>Защита (Defense):</strong>&nbsp;Вы блокируете количество урона независимо от исхода клэша. Если атака является массовой, весь урон перенаправляется на вас, и существа вокруг вас не получают урона, как будто они находились за укрытием. При провале вы защищаетесь на половину броска урона.<br>
+</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span><strong>Отмена (Cancel):</strong>&nbsp;Если вы выигрываете клэш, вы не получаете урона от атаки и устанавливаете скорость цели на 0 до начала ее следующего хода. Это работает с дальними атаками.<br>
+</li>
+</ul></div><div class="el-p"><p dir="auto">Также, существо, которое "клэшируют", может потратить 3 единицы Света, чтобы стать инициатором клэша, выбрав один из описанных выше эффектов (Контратака, Защита или Отмена). Можно использовать повторно чтобы вернуть "инициатора" на себя. (1 &gt; 3 &gt; 5 &gt; 7 и т.д.)</p></div><div class="el-p"><p dir="auto">На 9-ом уровне доступны новые виды Клэшей, Нерушимые Клэши. Потратив еще 1 единицу света вы можете превратить ваш Клэш в Нерушимый (можно использовать только на Защите и Контратаке). При проигрыше в Клэше вы все равно атакуете или защищаетесь от атаки, но ваш урон(защита) уменьшается в 2 раза с не возможностью убить, эффекты все еще накладываются и получаются, но также в 2 раза меньше.</p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Кровавый пир (3-й уровень):</strong>  </p></div><div class="el-p"><p dir="auto">На 3-м уровне вы сильнее предаётесь жажде крови, и это даёт вам силу, пока она стекает на землю. Весь нанесённый урон кровотечением сохраняется и учитывается как Кровавый пир. Кровавый пир используется для подпитки других особенностей, а при сохранении даёт вам пассивные бонусы.<br>
+1 раз за ход в начале своего хода вы можете поглотить количество крови из Кровавый пир, равное вашему модификатору Телосложения + бонусу мастерства. После поглощения Кровавый пир вы можете как бесплатное действие потратить 5 поглощённого Кровавый пир, чтобы получить один из следующих бонусов:</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>+10 футов к скорости.</li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>+1 к КД.</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>+1 к броскам атаки и урона.</li>
+</ul></div><div class="el-p"><p dir="auto">Кроме того, если вы поглотили Кровавый пир, равный вашему бонусу мастерства или больше, стаки Крови, которые накладывает ваше Кровавое Оружие, удваиваются (2 -&gt; 4). Поглощённый Кровавый пир сбрасывается в начале длинного отдыха. Эти бонусы длятся 1 минуту, и каждый из них можно выбрать только один раз, кроме бонуса к скорости, который можно брать до 10 раз. То есть после третьего раунда у вас будут все 3 бонуса, а дальше можно будет снова выбирать только скорость, пока остальные бонусы не закончатся.  </p></div><div class="el-p"><p dir="auto"><em>Вообще Кровавый пир это кровь, находящаяся вокруг поля боя, так что если вы находитесь рядом с большим количеством крови или там, где существа истекали кровью, вы можете её использовать. Это на усмотрение Мастера.</em></p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Улучшение Характеристик (4-й уровень):</strong><br>
+На 4-м, 8-м, 12-м, 16-м и 19-м уровнях вы можете увеличить одну из ваших характеристик на 2 или две характеристики на 1. Вы не можете увеличить значение характеристики выше 20.</p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Манипуляция кровью (4-й уровень):</strong><br>
+Начиная с 4-го уровня, вы получаете способность управлять кровью по своему желанию, получая черту Жесткой Крови и следующие техники:</p></div><div class="el-h2"><h2 data-heading="Багровое опутывание" dir="auto" class="heading" id="Багровое_опутывание_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Багровое опутывание</h2></div><div class="el-p"><p dir="auto">Вы можете вытянуть кровь из окружающей области, создавая сеть, которая обволакивает противника. Действием за 1 Свет и 5 Кровавый Пир выберите цель в пределах 30 футов от вас. Цель должна совершить спасбросок Ловкости против вашей сложности Кровожада или оказаться&nbsp;опутанный.<br>
+Существо может потратить своё действие после того, как оказалось опутанным, чтобы сделать спасбросок Силы и освободиться при успехе.</p></div><div class="el-h2"><h2 data-heading="Кровавая пила" dir="auto" class="heading" id="Кровавая_пила_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Кровавая пила</h2></div><div class="el-p"><p dir="auto">Вы создаёте колесо крови, вращающееся на высокой скорости, чтобы использовать его как режущий снаряд. Атакой за 1 свет и 6 Кровавый Пир вы формируете Кровавая пила и совершаете дальнюю атаку по существу в пределах 30 футов. При попадании цель получает 2d6 рубящего урона и 3 Крови.<br>
+Альтернативно вы можете придать крови форму потока, рассекающего всё на своём пути. Каждое существо в линии 20 футов длиной и 5 футов шириной должно совершить спасбросок Ловкости, получая 2d6 рубящего урона при провале или половину этого урона при успехе.<br>
+Урон этой техники увеличивается до 3d6 на 5-м уровне, 4d6 на 11-м и 5d6 на 17-м. Дальность каждой версии увеличивается на 30 футов и 20 футов соответственно, когда её урон растёт на определённом уровне.</p></div><div class="el-h2"><h2 data-heading="Вес крови" dir="auto" class="heading" id="Вес_крови_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Вес крови</h2></div><div class="el-p"><p dir="auto">Бесплатным действием за 2 Света вы можете заставить существо, которого видите в пределах 10 футов и на котором есть ваша кровь — буквально на нём или на его одежде, — ощутить вес вашей крови. За каждый стак крови на существе его скорость уменьшается на 5 футов. Если это уменьшает его скорость до половины обычной, у него помеха на спасброски Ловкости. Если скорость снижается до 0, он автоматически проваливает спасброски Ловкости. Для поддержания эффекта вы должны тратить 1 Свет в начале хода отягощённого существа.<br>
+Количество Крови на существе вы можете определить по тому, сколько Пира стоила техника, попавшая в него, до любых снижений.<br>
+Существо под лёгким дождём теряет 5 Крови в конце своего хода, и столько же, если на него попадает лёгкий источник воды, например ведро воды или мелководье. Существо под сильным дождём теряет 10 Крови в конце своего хода, и столько же, если его накрывает сильный источник воды, например волна. Существо, погружённое наполовину или полностью, не может иметь Кровь.</p></div><div class="el-h2"><h2 data-heading="Плевок кровью" dir="auto" class="heading" id="Плевок_кровью_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Плевок кровью</h2></div><div class="el-p"><p dir="auto">Грязный приём, но вы сделаете всё, чтобы победить, даже плюнув кровью в глаза врага, чтобы ослепить его. Бонусным действием или 1 раз за раунд реакцией на получение урона за 4 Пира вы можете совершить ближнюю атаку Светом по существу в пределах 5 футов. При попадании его лицо покрывается вашей кровью на количество раундов, равное вашему модификатору Света.<br>
+За 3 Света как часть покрытия лица кровью или реакцией, пока лицо существа покрыто кровью, вы можете заставить кровь взорваться, нанеся ему 4d4 колющего урона и наложив слепоту до конца его следующего хода. Если оно выполняло какое-либо действие в момент взрыва крови, оно должно пройти спасбросок концентрации или не сможет завершить действие; ресурсы, потраченные на него, не тратятся впустую. Вы не можете делать это, если обездвижены. После использования эта особенность заканчивается раньше срока.</p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Дополнительная Атака (5-й уровень):</strong><br>
+На 5-м уровне вы можете атаковать дважды, когда совершаете действие "Атака" в свой ход. На 11-м уровне количество атак увеличивается до трех.</p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Вампирическая регенерация (5-й уровень):</strong><br>
+На 5-м уровне у вас удвоенный запас регенерационных хитов. В начале каждого своего хода вы восстанавливаете 1 хит, если у вас осталось не более половины от максимума хитов. Вы не получаете этот эффект, если у вас 0 хитов. У вас есть преимущество на спасброски от смерти, а после 1 минуты в стабильном состоянии вы восстанавливаете 1 хит.</p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Насадить на шип (6-й уровень):</strong><br>
+На 6-м уровне вы можете управлять кровью, впитавшейся в землю, чтобы насаживать на шипы своих врагов. Вы можете потратить до 100 неиспользованного Пира, чтобы выбрать всех существ по вашему выбору в радиусе 30 футов от точки в пределах 60 футов от вас, или в радиусе 60 футов от себя. Все враждебные существа в области затем должны совершить спасбросок Ловкости или получить Xd6 колющего урона и 10 Крови. Эти стаки Крови не дают вам Пир, пока вы не атакуете существо в ближнем бою. Урон этой способности равен количеству потраченного Пира, делённому на 6.</p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Нечеловеческая мощь (7-й уровень):</strong><br>
+На 7-м уровне ваша Сила, Ловкость и Телосложение снова увеличиваются на 1, ваша скорость ходьбы увеличивается на 10 футов, и вы можете совершать Рывок, Отход или Спрятаться бонусным действием.<br>
+Кроме того, действием вы можете совершить великий подвиг силы. Вы можете поднять, толкнуть или бросить груз весом в килограммах, равный вашему значению Силы, умноженному на 100 кг. Это также можно использовать, чтобы ломать стены и тому подобное.<br>
+Использовать это можно число раз, равное вашему бонусу мастерства за длинный отдых, и вы можете восстановить один заряд, потратив 25 Пира. На 14-м уровне вес, который вы можете поднять, толкнуть или бросить, удваивается, а на 20-м удваивается снова.</p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Уклонение (7-й уровень):</strong><br>
+На 7-м уровне ваша инстинктивная ловкость позволяет уходить от некоторых зонных эффектов, например взрыва. Когда на вас действует эффект, позволяющий совершить спасбросок Ловкости, чтобы получить только половину урона, при успехе вы не получаете урон вовсе, а при провале получаете только половину урона.</p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Кровавая приливная волна (8-й уровень):</strong><br>
+На 8-м уровне вы можете покрыть поле боя огромным количеством крови. Действием за 5 Света и количеством Пира до вашего уровня, умноженного на ваш модификатор Света, вы создаёте приливную волну крови из своего тела, которая бушует, словно волна, выходящая наружу.<br>
+Все существа, соприкоснувшиеся с волной при её расширении, должны совершить спасбросок Силы: при провале они получают 1d8 дробящего урона за каждые 10 потраченных Пира и падают ничком, а при успехе получают половину урона и не падают ничком. Если существо уже лежит ничком в области волны, оно совершает спасбросок Силы с помехой и при провале уносится расширением волны.<br>
+Любая земля, которую проходит эта волна, считается труднопроходимой местностью и даёт существу, закончившему там ход, количество Крови, равное вашему бонусу мастерства.<br>
+Радиус волны равен количеству футов, равному удвоенному числу потраченного Пира, но максимум 60 футов. Если вы потратили столько Пира, что радиус должен превысить 60 футов, то в начале каждого последующего вашего хода радиус увеличивается на 60 футов, пока не достигнет общего значения; после этого приливная волна заканчивается. Волна остаётся центрированной на точке, где вы впервые её создали, до конца эффекта.</p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Демоническая конструкт (9-й уровень):</strong><br>
+На 9-м уровне вы можете восстанавливать свои конечности через 10 минут пассивно, если хотите. Вы также можете потратить 1 кость регенерации бонусным действием, чтобы восстановить кисть или ступню, или 3 — чтобы восстановить полную конечность. Любая ваша конечность, приложенная к культю, мгновенно прирастает обратно.  </p></div><div class="el-p"><p dir="auto">Альтернативно, бонусным действием, пока одна из ваших конечностей находится в пределах 60 футов от вас, вы можете выстрелить нитью крови и вернуть конечность на культю, мгновенно прирастив её. Теперь для определения пула кубов регенерации вы используете полный модификатор Телосложения.</p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Личные мешки с кровью (11-й уровень):</strong><br>
+На 11-м уровне, когда вы убиваете живого гуманоида с Уровнем Опасности ниже вашего бонуса мастерства, вы можете вернуть его как неживая тень самого себя, жаждущая крови. Через 1d4+1 ходов он оживает как Мешок с Кровью.<br>
+Вы также можете создать Мешок с Кровью из уже мёртвого тела, воздействуя на него своей кровью через укус или трансфузию. В этом случае он оживает как Мешок с Кровью через 2d12 ходов. Мешки с Кровью всегда подчиняются вашим приказам и используют статблок Мешков с Кровью.<br>
+Одновременно вы можете командовать не более чем 2 Мешка с Кровью в бою. Командование ими требует бонусного действия. Если им не отданы приказы, они просто совершают действие Уворот. <em>На усмотрение Мастера вы можете отправлять этих Мешки с Кровью выполнять задачи сверх этого лимита, но только если отправляете их без себя или других членов группы.</em></p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Улучшенное кровавое создание (13-й уровень):</strong></p></div><div class="el-p"><p dir="auto">На 13-м уровне с накопленным опытом вы научились тонко настраивать свои кровавые создания. Ваше Кровавое оружие накладывает +1 Кровь за каждый раз, когда вы поглощаете максимальное количество Пира за ход, максимум +2.  </p></div><div class="el-p"><p dir="auto">Кроме того, при использовании Насадить все существа, провалившие спасбросок, теперь становятся опутанными. Существа, удерживаемые таким образом, могут повторять спасбросок в конце своего хода, чтобы освободиться, получая 1d4 кровоточащего (некротического) урона при провале. Альтернативно существо может атаковать шип, на который оно насажено, чтобы попытаться уничтожить его. У шипа КД 10 и 10 хитов. После уничтожения шипа цель больше не окутанна.</p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Мощное тело (14-й уровень):</strong></p></div><div class="el-p"><p dir="auto">На 14-м уровне ваша Сила, Ловкость и Телосложение снова увеличиваются на 1, ваша скорость ходьбы увеличивается на 10 футов, вес, который вы можете толкать, переносить и поднимать, удваивается, и вы получаете дополнительную реакцию. Кроме того, максимальное значение всех ваших характеристик увеличивается на 2.</p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Не сломлен (15-й уровень):</strong><br>
+На 15-м уровне врагам чтобы использовать против тебя преимущество, нужно 2 источника.</p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Угрожающая аура (16-й уровень):</strong><br>
+На 16-м уровне вы получаете преимущество на проверки Запугивания и можете совершать проверку Запугивания бонусным действием. Каждый раз, когда вы совершаете такую проверку, вы можете заставить цель в пределах 60 футов сделать спасбросок Мудрости против Сл 8 + ваш бонус Запугивания. Если цель проваливает спасбросок, она получает состояние Испуг на следующую минуту.<br>
+Если существо уже было вынуждено делать спасбросок против вашей Угрожающей Ауры, оно получает +4 к последующим спасброскам против этой ауры в течение следующей минуты.<br>
+Если вы используете это против уже испуганной цели, вы можете повысить её уровень страха на 1 при провале, или на 2, если провал на 5 и более. Эта особенность использует вариант состояния Испуганный.</p></div><div class="el-h2"><h2 data-heading="Испуг" dir="auto" class="heading" id="Испуг_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Испуг</h2></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>Беспокойство: штраф -2 ко всем d20-броскам, пока существо видит или слышит источник страха.</li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>Жуть: штраф -4; кроме того, оно может добровольно двигаться ближе к источнику только на половину скорости за ход, если не тратит атаку, чтобы двигаться на полную скорость.</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>Паника: штраф -6; оно должно использовать хотя бы половину скорости, чтобы отходить от источника каждый ход, если не тратит атаку, чтобы стоять на месте, или 2 / полный ход, чтобы двигаться к источнику.</li>
+<li data-line="3" dir="auto"><span class="list-bullet"></span>Страх: штраф -8; оно должно использовать полную скорость, чтобы отходить, если не тратит три атаки, чтобы стоять на месте.</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span>Ужас: штраф -10; оно должно использовать полную скорость, чтобы отходить, если не тратит полное действие, чтобы стоять на месте.</li>
+<li data-line="5" dir="auto"><span class="list-bullet"></span>Кошмар: цель должна совершить спасбросок Телосложения против вашей сложности света. При успехе она опускается до Ужаса. При провале умирает от сердечного приступа.</li>
+</ul></div><div class="el-p"><p dir="auto">Существо с состоянием Испуга может использовать полное действие или помощь союзника, чтобы понизить уровень страха на 1, а если это был самый низкий уровень, эффект снимается полностью. В начале хода существа с Уровнем Опасности выше вашего бонуса мастерства оно может совершить спасбросок Мудрости, чтобы при успехе снять 1 уровень страха.</p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Высший Сородич (17-й уровень):</strong><br>
+На 17-м уровне вы прочно закрепились в своей семье и получаете за это преимущества. Вы получаете Таланты Жесткой Крови из списка Навыков. Если оно у вас уже есть, вместо этого вы можете взять Усиленные таланты крови. Кроме того, вы можете продолжить свой род, создав до двух Сородичей. Учтите, что любой ваш ранг Сородича сделает ваших собственных Сородичей на один ранг ниже вас. Например, если вы третий Сородич, ваши Сородичи будут четвёртым и так далее.<br>
+Чтобы превратить кого-то в Сородича, он должен быть согласным умирающим гуманоидом или недавно умершим гуманоидом. Процесс превращения занимает до часа: вы даёте существу часть своей крови и ждёте, примет ли тело кровь. Существо, которое вы пытаетесь превратить, должно совершить спасбросок Телосложения со Сл 8. При успехе оно возвращается к жизни. Его новой расой станет Кроводемон, и оно при желании может взять класс Фиксера и принадлежность Кроводемона. При провале тело растворяется и сворачивает кровь, превращаясь в лужу крови.<br>
+Ваши Сородичи будут слушать ваши приказы, если вы что-то им прикажете, однако у них всё ещё есть собственные взгляды, и если им разрешено говорить свободно, они будут это делать. Иначе они следуют тем же правилам, что и раса Крово демонов, считая вас и всех Сородичей выше вас своими родителями или дедами.</p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Признание (18-й уровень):</strong><br>
+На 18-м уровне ваше имя знает больше людей, чем вы знаете их. Когда существо встречает вас в первый раз, оно должно бросить проверку истории, чтобы узнать вас (сложность=10). В случае успеха они узнают вас или, по крайней мере, знают о вас в общих чертах. В бою, если существо узнает вас, у него будет помеха в спасбросках, которые он применяет до тех пор, пока вы не получите какой-либо урон или не пропустите спасбросок, если только это существо не того же уровня, что и вы, или выше. Навык можно отключить на выбранных существ.</p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Шаг крови (18-й уровень):</strong><br>
+На 18-м уровне вы можете использовать свою кровь для невероятной мобильности. Вы можете совершить прыжок в воздух за 5 неиспользованного или использованного Пира и можете зависнуть в воздухе на раунд за 5 Пира. Если вы падаете, вы можете не получать урон от падения, потратив Пир в количестве, равном числу кубов урона, которое это падение должно было бы нанести.</p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto"><strong>Королевская власть (20-й уровень):</strong><br>
+На 20-м уровне вы достигаете вершины. Все ваши характеристики увеличиваются на 1, вы получаете владение ещё одним спасброском на выбор, а ваша скорость увеличивается на 10 футов. Вы можете получить экспертизу в двух навыках, а также можете превращать любого мёртвого гуманоида в Кровавый Мешок независимо от Уровня Сложности.<br>
+Если существо с УС, равным вашему бонусу мастерства или ниже, проваливает спасбросок против вашей Устрашающая Аура, оно получает ещё один уровень страха.<br>
+Вашу форму нельзя никак изменить, если только вы сами этого не позволите, поскольку свет в вашем теле изгибается перед никем иным.</p></div><div class="footer"><div class="data-bar"></div></div></div></div></div><div id="right-content" class="leaf" style="--sidebar-width: var(--sidebar-width-right);"><div id="right-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme-toggle-input" id=""><input class="theme-toggle-input" type="checkbox" id="theme-toggle-input"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="right-sidebar-content" class="leaf-content"><div class="graph-view-wrapper"><div class="feature-header"><div class="feature-title">Interactive Graph</div></div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<div class="graph-icon graph-global" role="button" aria-label="Global Graph" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-git-fork"><circle cx="12" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><circle cx="18" cy="6" r="3"></circle><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"></path><path d="M12 12v3"></path></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div id="outline" class=" tree-container"><div class="feature-header"><div class="feature-title">Table Of Contents</div><button class="clickable-icon nav-action-button tree-collapse-all" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-item mod-collapsible" data-depth="1"><a class="tree-item-self is-clickable mod-collapsible" href="классы/кроводемоны/кроводемоны.html#Кроводемоны_0" data-path="#Кроводемоны_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Кроводемоны">Кроводемоны</div></a><div class="tree-item-children"><div class="tree-item" data-depth="2"><a class="tree-item-self is-clickable" href="классы/кроводемоны/кроводемоны.html#Багровое_опутывание_0" data-path="#Багровое_опутывание_0"><div class="tree-item-inner heading-link" heading-name="Багровое опутывание">Багровое опутывание</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-item-self is-clickable" href="классы/кроводемоны/кроводемоны.html#Кровавая_пила_0" data-path="#Кровавая_пила_0"><div class="tree-item-inner heading-link" heading-name="Кровавая пила">Кровавая пила</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-item-self is-clickable" href="классы/кроводемоны/кроводемоны.html#Вес_крови_0" data-path="#Вес_крови_0"><div class="tree-item-inner heading-link" heading-name="Вес крови">Вес крови</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-item-self is-clickable" href="классы/кроводемоны/кроводемоны.html#Плевок_кровью_0" data-path="#Плевок_кровью_0"><div class="tree-item-inner heading-link" heading-name="Плевок кровью">Плевок кровью</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-item-self is-clickable" href="классы/кроводемоны/кроводемоны.html#Испуг_0" data-path="#Испуг_0"><div class="tree-item-inner heading-link" heading-name="Испуг">Испуг</div></a><div class="tree-item-children"></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector("#right-sidebar"); rs.classList.toggle("is-collapsed", window.innerWidth < 768); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></div></div></body></html>
